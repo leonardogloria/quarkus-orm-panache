@@ -1,0 +1,2 @@
+INSERT INTO task (id, description, project, developer) VALUES ( nextval( 'hibernate_sequence' ),'Super Task1', 'Super Project 1', 'Patolino');
+INSERT INTO task ( id, description, project, developer) VALUES (nextval( 'hibernate_sequence' ), 'Super Task2', 'Super Project 2', 'Hortelino');
